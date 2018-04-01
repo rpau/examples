@@ -1,4 +1,4 @@
-Walkmod example for Checkstyle and Maven
+Walkmod example for SonarQube and Maven
 ========================================
 
 Build this project with:

@@ -1,4 +1,4 @@
-Walkmod example for Checkstyle and Maven
+Walkmod example for PMD and Maven
 ========================================
 
 
