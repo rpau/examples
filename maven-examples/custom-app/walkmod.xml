@@ -1,0 +1,5 @@
+<!DOCTYPE walkmod PUBLIC "-//WALKMOD//DTD" "http://www.walkmod.com/dtd/walkmod-1.1.dtd">
+<walkmod>
+    <transformation type="sonar:DeclarationsShouldUseCollectionInterfaces"/>
+    <transformation type="dead-code-cleaner"/>
+</walkmod>
