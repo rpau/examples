@@ -19,8 +19,15 @@ buildscript {
 }
 
 apply plugin: 'java-library'
+apply plugin: 'pmd'
 apply plugin: 'walkmod'
 
+pmd {
+  sourceSets = [sourceSets.main]
+  reportsDir = file("$project.buildDir/reports/pmd")
+  ruleSets = ["src/main/resources/ruleset.xml"]
+}
+                  
 walkmod {
   chains = ['pmd']
   properties = 'configurationFile=src/main/resources/ruleset.xml'
