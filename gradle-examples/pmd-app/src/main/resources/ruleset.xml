@@ -21,7 +21,7 @@ The default ruleset used by the Maven PMD Plugin, when no other ruleset is speci
    <rule ref="rulesets/java/migrating.xml/IntegerInstantiation">
        <priority>3</priority>
    </rule>
-   <rule ref="rulesets/java/imports.xml/DuplicateImports">
+   <rule ref="rulesets/java/typeresolution.xml/UnusedImports">
        <priority>2</priority>
    </rule>
    <rule ref="rulesets/java/design.xml/SimplifyBooleanExpressions">
@@ -154,9 +154,6 @@ The default ruleset used by the Maven PMD Plugin, when no other ruleset is speci
        <priority>2</priority>
    </rule>
    <rule ref="rulesets/java/basic.xml/BrokenNullCheck">
-       <priority>2</priority>
-   </rule>
-   <rule ref="rulesets/java/imports.xml/UnusedImports">
        <priority>2</priority>
    </rule>
    <rule ref="rulesets/java/optimizations.xml/LocalVariableCouldBeFinal">

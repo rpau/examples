@@ -4,7 +4,7 @@ import java.util.*;
  */
 public class Library {
 
-  private List list;
+  private String name;
   private int myArray[];
 
   public boolean someLibraryMethod() {
