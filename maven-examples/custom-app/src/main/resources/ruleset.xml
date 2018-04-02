@@ -165,4 +165,7 @@ The default ruleset used by the Maven PMD Plugin, when no other ruleset is speci
    <rule ref="rulesets/java/imports.xml/UnusedImports">
        <priority>2</priority>
    </rule>
+   <rule ref="rulesets/java/optimizations.xml/LocalVariableCouldBeFinal">
+       <priority>2</priority>
+   </rule>
 </ruleset>
