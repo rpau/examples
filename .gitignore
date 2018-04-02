@@ -1,6 +1,7 @@
 **/target/**
 **/build/**
 **/.gradle/**
+**/.gradle/4.4.1/taskHistory/**
 **.patch
 **.lock
 **.bin
