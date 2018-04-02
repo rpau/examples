@@ -26,6 +26,7 @@ pmd {
   sourceSets = [sourceSets.main]
   reportsDir = file("$project.buildDir/reports/pmd")
   ruleSets = ["src/main/resources/ruleset.xml"]
+  consoleOutput = true
 }
                   
 walkmod {
